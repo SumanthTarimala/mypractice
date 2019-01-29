@@ -22,3 +22,4 @@
 --> git push - to push the changes from LR to RR
 --> git pull - to pull the RR to the local
 ** If you want to push the changes from LR to RR always your WD has to be updated with RR
+** Each commit will have the unique ID
