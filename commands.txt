@@ -1,0 +1,24 @@
+--> git clone - to take the repository into local
+--> git config --global user.name "<name>" - this will register your name when you push the changes to LR or to RR it will get registered with your name 
+--> git config --global user.email "<email>" - this will register your name when you push the changes to LR or to RR it will get registered with your email address
+--> rm - to delete the files in the working directory 
+--> git rm - will delete the files bot in LR and in WD
+--> git show - will show the pending the status of the files 
+--> git log - will show all the logs along with the commit ID's
+--> git log --oneline - will show all the commits in one line
+--> git commit - will add the file to the LR
+--> git add - will add the files to the staging directories
+--> git push - will add the file to RR
+--> git pull - will pull the RR into your local
+--> git commit -a -m - will add and commit the files at a time
+--> git rev-list --count --all - will give the commits count 
+--> git reset HEAD <filename> - to get the file from the staging directory after adding
+--> git checkout <filename> - suppose any file deleted in WD and want to get that particular file from LR need to use this command
+--> git rm --cached <filename> - to delete the file in the LR
+--> git diff <filename> - to check the differences between the file present in WD and in staging
+--> git diff --cached <filename> - to check the differences between the file present in stagind and LR
+** We can create a file called .gitignore . If we add any file name in this .gitignore it will add that filename into the staging directory . If that file is already present in LR we cannot ignore that file
+--> git remote -v - to check the connectivity with RR
+--> git push - to push the changes from LR to RR
+--> git pull - to pull the RR to the local
+** If you want to push the changes from LR to RR always your WD has to be updated with RR
